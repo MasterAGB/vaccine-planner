@@ -24,10 +24,10 @@ The app (1.11+) opens the same URL from Informācija → Privātuma politika. It
 sheet (key `PrivacyPolicyUrl`, default in `OpenPrivacyPolicyButton.DefaultUrl`). If you use another repository
 name, change that key in `VaccineAppLocalization.xlsx` – no app update needed.
 
-## When the app is back on Google Play
+## Google Play link
 
-Replace the "Drīzumā pieejama Google Play / Coming soon to Google Play" `<span>` in `index.html` and `en.html` with a
-link to `https://play.google.com/store/apps/details?id=lv.sensora.vaccine` (or the official Google Play badge).
+Done 2026-11-13: the app has been live on Google Play since 2026-11-11 (version 1.11), and both landing pages
+(`index.html`, `en.html`) link to `https://play.google.com/store/apps/details?id=lv.sensora.vaccine`.
 
 ## When the app changes
 
